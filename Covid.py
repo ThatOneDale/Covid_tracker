@@ -8,6 +8,7 @@ Final_case_dic = {}
 Final_date = []
 Final_total = []
 Final_date_total = {}
+listof_cases = []
 Covid_info = pd.read_csv("https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv")
 for i in Covid_info["location"]:
     if i not in counted_locations:
